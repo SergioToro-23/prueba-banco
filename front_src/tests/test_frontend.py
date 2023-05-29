@@ -4,7 +4,7 @@ from front_src.app.frontend import app
 import pytest
 
 @pytest.mark.parametrize("route, expected_status, expected_content", [
-    ("/", 200, "Bienvenido, Hola a todo el mundo")
+    ("/", 200, "Bienvenido, Hola a todo el mundos")
 ])
 
 def test_index_route(route, expected_status, expected_content):
